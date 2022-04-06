@@ -14,10 +14,17 @@ We also have .prettierc file. It allows you to format your code.
 https://stackoverflow.com/questions/50975264/prettier-settings-for-vscode
 
 
+Video:2 
 1. Github workflows are written in the yaml format
 
 To learn more about yaml, 
 see this video: 002. a-brief-introduction-to-writing-in-yaml-format
 
-2. In order to create a workflow, create q yaml inside .github/workflows folder.
+Video:3
+1. In order to create a workflow, create a yaml inside .github/workflows folder.
 We a creating a file name simple.yaml
+See Example: Examples/Chapter1.yaml
+
+Video:4
+1. These are the different shells supported per OS in Github
+https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-actions#jobsjob_idstepsshell

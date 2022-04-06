@@ -17,11 +17,3 @@ jobs:
         run: | #Use this pipe | symbol to run multiple commands in one step
           node -v
           npm -v
-# Upto Line 19, we were using default shell,which was bash. 
-#In the below steps, we are going to use the python shell. Here we are just printing the processor of the machine
-# To inform github actions, that we need to run it on python and not bash use shell:python as done below      
-      - name: python command
-        run: |
-          import platform
-          print(platform.processor())
-        shell: python     
