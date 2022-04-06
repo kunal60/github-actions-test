@@ -25,3 +25,11 @@ jobs:
           import platform
           print(platform.processor())
         shell: python     
+  run-windows-commands: #Created another job for windows. By default windows have powershell
+    runs-on: windows-latest
+    steps:
+      - name: Directory Powershell
+        run: Get-location
+      - name: Directory bash #We can also use bash in Windows machine
+        run: pwd
+        shell: bash  
