@@ -32,4 +32,11 @@ https://docs.github.com/en/actions/using-workflows/workflow-syntax-for-github-ac
 1. In this video, we will add a  python shell.
 2. We are going to use bash in windows machine. We are going to do it in a new job because we need a need OS, which
 is windows. Each job will run parallel on its own virtual machine.
-So, we need to add a new job (run-windows-commands) in the same file, same as we did for the previous job name: run-shell-command:
+So, we need to add a new job (run-windows-commands) in the same file, same as we did for the previous job name: run-shell-command.
+
+See Example: Examples/Chapter2.yaml From Line 20
+
+In github- after pull, you will see them as separate jobs running
+Jobs
+run-shell-command
+run-windows-commands
