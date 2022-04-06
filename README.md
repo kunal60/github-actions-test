@@ -40,3 +40,7 @@ In github- after pull, you will see them as separate jobs running
 Jobs
 run-shell-command
 run-windows-commands
+
+Right now, both jobs are running in parallel.
+But let's say, we want to configure thatrun-windows-commands job depends on run-shell-command.
+Then use this: needs: ["run-shell-command"], as shown in Examples/Chapter3.yaml Line 30
